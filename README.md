@@ -1,1 +1,1 @@
-#Juego clicker
+Juego clicker
