@@ -1,13 +1,13 @@
 import sys
 from PyQt5.QtWidgets import QApplication, QWidget, QPushButton, QVBoxLayout
-from PyQt5.QtGui import QPalette, QColor
+from PyQt5.QtGui import QPalette, QColor, QPixmap
 from second_win import open_win2
 
 class FirstWin(QWidget):
     def __init__(self):
         super().__init__()
         self.setWindowTitle("Bienvenido!")
-        self.setGeometry(100, 100, 400, 300)
+        self.setGeometry(600, 200, 800, 700)
 
         # Fondo azul
         palette = self.palette()

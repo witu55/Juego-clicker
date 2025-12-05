@@ -8,7 +8,7 @@ class ThirdWin(QWidget):
                  cps_cooldown, callback_volver):
         super().__init__()
         self.setWindowTitle("Tienda")
-        self.setGeometry(220, 220, 900, 700)
+        self.setGeometry(600, 200, 800, 700)
 
         # Estado recibido
         self.clicks = clicks

@@ -7,7 +7,7 @@ class FinalWin(QWidget):
     def __init__(self, clicks, callback_volver=None):
         super().__init__()
         self.setWindowTitle("Resultado")
-        self.setGeometry(250, 250, 500, 300)
+        self.setGeometry(600, 200, 800, 700)
 
         self.clicks = clicks
         self.callback_volver = callback_volver
